@@ -451,7 +451,7 @@ $directionBtn.forEach($btn => $btn.onclick = e => {
         alert(`게임종료`);
     }
 
-    if (player === 10) {
+    if (player === 11) {
         alert(`게임종료`);
     }
 
