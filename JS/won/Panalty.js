@@ -279,7 +279,7 @@ function showBoxImage() {
 function firstPlayer() {
     const $player = document.getElementById('Player'); // Player
 
-    $player.style.backgroundImage = 'url(../../CSS/WON/pic/Son-normal.png)';
+    $player.style.backgroundImage = 'url(../../CSS/won/pic/Son-normal.png)';
     secondPlayerShootingChangeImg();
     setTimeout(changeSon, 3000);
 }
@@ -287,7 +287,7 @@ function firstPlayer() {
 function secondPlayer() {
     const $player = document.getElementById('Player'); // Player
 
-    $player.style.backgroundImage = 'url(../../CSS/WON/pic/God-normal.png)';
+    $player.style.backgroundImage = 'url(../../CSS/won/pic/God-normal.png)';
     firstPlayerShootingChangeImg();
     setTimeout(changeGod, 3000);
 
@@ -296,13 +296,13 @@ function secondPlayer() {
 function changeGod() {
     const $player = document.getElementById('Player'); // Player
 
-    $player.style.backgroundImage = 'url(../../CSS/WON/pic/Son-normal.png)';
+    $player.style.backgroundImage = 'url(../../CSS/won/pic/Son-normal.png)';
 }
 
 function changeSon() {
     const $player = document.getElementById('Player'); // Player
 
-    $player.style.backgroundImage = 'url(../../CSS/WON/pic/God-normal.png)';
+    $player.style.backgroundImage = 'url(../../CSS/won/pic/God-normal.png)';
 
 }
 
